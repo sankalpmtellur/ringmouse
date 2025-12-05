@@ -40,7 +40,13 @@ export const Navbar = () => {
                 {link.label}
               </button>
             ))}
-            <Button size="sm" onClick={() => scrollToSection('')}>
+            <a
+              href="/summarizer"
+              className="text-text-secondary hover:text-primary transition-colors duration-200 font-medium flex items-center gap-2"
+            >
+              Summarizer
+            </a>
+            <Button size="sm" onClick={() => scrollToSection('#pricing')}>
               Buy Now
             </Button>
           </div>
