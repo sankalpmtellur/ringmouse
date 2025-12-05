@@ -1,4 +1,4 @@
-import { MousePointer2, Twitter, Github, Linkedin, Mail } from 'lucide-react';
+import { MousePointer2, Twitter, Instagram, Linkedin, Mail } from 'lucide-react';
 import { Container } from '../components/Container';
 
 const footerLinks = {
@@ -6,7 +6,6 @@ const footerLinks = {
     { label: 'Features', href: '#features' },
     { label: 'Use Cases', href: '#use-cases' },
     { label: 'Specifications', href: '#specs' },
-    { label: 'Pricing', href: '#pricing' },
   ],
   company: [
     { label: 'About Us', href: '#' },
@@ -30,7 +29,7 @@ const footerLinks = {
 
 const socialLinks = [
   { icon: Twitter, href: '#', label: 'Twitter' },
-  { icon: Github, href: '#', label: 'GitHub' },
+  { icon: Instagram, href: '#', label: 'GitHub' },
   { icon: Linkedin, href: '#', label: 'LinkedIn' },
   { icon: Mail, href: 'mailto:hello@ringmouse.com', label: 'Email' },
 ];

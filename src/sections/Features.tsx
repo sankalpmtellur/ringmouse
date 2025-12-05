@@ -17,7 +17,7 @@ const features = [
   {
     icon: Battery,
     title: 'All-Day Battery',
-    description: 'Up to 40 hours of continuous use on a single charge. Quick charge in just 30 minutes.',
+    description: 'Up to 24 hours of continuous use on a single charge. Quick charge in just 100 minutes.',
   },
   {
     icon: Gauge,

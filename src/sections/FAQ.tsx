@@ -15,7 +15,7 @@ const faqs = [
   },
   {
     question: 'How long does the battery last?',
-    answer: 'On a full charge, Ring Mouse provides up to 40 hours of continuous use. With normal usage patterns, most users charge it once a week. The USB-C quick charge feature provides 8 hours of use from just 30 minutes of charging.',
+    answer: 'On a full charge, Ring Mouse provides up to 24 hours of continuous use. With normal usage patterns, most users charge it once a week. The USB-C quick charge feature provides 8 hours of use from just 30 minutes of charging.',
   },
   {
     question: 'What if it doesn\'t fit my finger?',
@@ -27,7 +27,7 @@ const faqs = [
   },
   {
     question: 'What is your return policy?',
-    answer: 'We offer a 30-day money-back guarantee. If you\'re not completely satisfied with your Ring Mouse, return it within 30 days for a full refund. The device must be in its original condition with all accessories included.',
+    answer: 'We offer a 7-day money-back guarantee. If you\'re not completely satisfied with your Ring Mouse, return it within 7 days for a full refund. The device must be in its original condition with all accessories included.',
   },
   {
     question: 'How do I customize gestures?',
@@ -35,7 +35,7 @@ const faqs = [
   },
   {
     question: 'Is there a warranty?',
-    answer: 'Yes! All Ring Mouse devices come with a 1-year limited warranty (2 years for Pro). The warranty covers manufacturing defects and hardware failures. Extended warranty options are available for Enterprise customers.',
+    answer: 'Yes! All Ring Mouse devices come with a 1-year limited warranty. The warranty covers manufacturing defects and hardware failures. Extended warranty options are available for Enterprise customers.',
   },
 ];
 
@@ -51,15 +51,13 @@ const FAQItem = ({ question, answer, delay }: { question: string; answer: string
         >
           <span className="text-lg font-semibold text-text pr-8">{question}</span>
           <ChevronDown
-            className={`w-5 h-5 text-text-secondary flex-shrink-0 transition-transform duration-300 ${
-              isOpen ? 'rotate-180' : ''
-            }`}
+            className={`w-5 h-5 text-text-secondary flex-shrink-0 transition-transform duration-300 ${isOpen ? 'rotate-180' : ''
+              }`}
           />
         </button>
         <div
-          className={`overflow-hidden transition-all duration-300 ${
-            isOpen ? 'max-h-96' : 'max-h-0'
-          }`}
+          className={`overflow-hidden transition-all duration-300 ${isOpen ? 'max-h-96' : 'max-h-0'
+            }`}
         >
           <div className="px-6 pb-5 text-text-secondary leading-relaxed">
             {answer}

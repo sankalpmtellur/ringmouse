@@ -6,7 +6,7 @@ const specs = [
   { label: 'Sensor', value: 'Optical, 1600 DPI' },
   { label: 'Connectivity', value: 'Bluetooth 5.2' },
   { label: 'Range', value: 'Up to 30 feet (10m)' },
-  { label: 'Battery Life', value: 'Up to 40 hours' },
+  { label: 'Battery Life', value: 'Up to 24 hours' },
   { label: 'Charging', value: 'USB-C, 30min quick charge' },
   { label: 'Compatibility', value: 'Windows, macOS, Linux, iOS, Android' },
   { label: 'Weight', value: '12g (0.42 oz)' },

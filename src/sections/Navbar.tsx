@@ -10,7 +10,6 @@ export const Navbar = () => {
     { label: 'Features', href: '#features' },
     { label: 'Use Cases', href: '#use-cases' },
     { label: 'Specs', href: '#specs' },
-    { label: 'Pricing', href: '#pricing' },
     { label: 'FAQ', href: '#faq' },
   ];
 
@@ -41,7 +40,7 @@ export const Navbar = () => {
                 {link.label}
               </button>
             ))}
-            <Button size="sm" onClick={() => scrollToSection('#pricing')}>
+            <Button size="sm" onClick={() => scrollToSection('')}>
               Buy Now
             </Button>
           </div>
@@ -66,7 +65,7 @@ export const Navbar = () => {
                 {link.label}
               </button>
             ))}
-            <Button className="w-full" onClick={() => scrollToSection('#pricing')}>
+            <Button className="w-full" onClick={() => scrollToSection('')}>
               Buy Now
             </Button>
           </div>
