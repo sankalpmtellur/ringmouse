@@ -71,7 +71,13 @@ export const Navbar = () => {
                 {link.label}
               </button>
             ))}
-            <Button className="w-full" onClick={() => scrollToSection('')}>
+            <a
+              href="/summarizer"
+              className="block w-full text-left text-text-secondary hover:text-primary transition-colors duration-200 font-medium py-2"
+            >
+              Summarizer
+            </a>
+            <Button className="w-full" onClick={() => scrollToSection('#pricing')}>
               Buy Now
             </Button>
           </div>
