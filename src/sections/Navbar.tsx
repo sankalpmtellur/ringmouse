@@ -46,7 +46,7 @@ export const Navbar = () => {
             >
               Summarizer
             </a>
-            <Button size="sm" onClick={() => scrollToSection('#pricing')}>
+            <Button size="sm" onClick={() => scrollToSection('')}>
               Buy Now
             </Button>
           </div>
@@ -77,7 +77,7 @@ export const Navbar = () => {
             >
               Summarizer
             </a>
-            <Button className="w-full" onClick={() => scrollToSection('#pricing')}>
+            <Button className="w-full" onClick={() => scrollToSection('')}>
               Buy Now
             </Button>
           </div>
