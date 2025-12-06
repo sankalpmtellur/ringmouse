@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import AudioSummarizer from '../components/AudioSummarizer';
 import { Container } from '../components/Container';
-import { SectionTitle } from '../components/SectionTitle';
-import { Trash2, Clock, FileText, ChevronLeft } from 'lucide-react';
+
+import { Trash2, Clock, ChevronLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { FadeIn } from '../components/FadeIn';
 

@@ -65,7 +65,8 @@ const AudioSummarizer: React.FC<AudioSummarizerProps> = ({ onSummaryGenerated })
         formData.append('audio', audioBlob, 'recording.webm');
 
         try {
-            const response = await fetch('http://localhost:3000/api/summarize', {
+            const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:3000';
+            const response = await fetch(`${apiUrl}/api/summarize`, {
                 method: 'POST',
                 body: formData,
             });
