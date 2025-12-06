@@ -3,7 +3,7 @@ import { SectionTitle } from '../components/SectionTitle';
 import { FadeIn } from '../components/FadeIn';
 
 const specs = [
-  { label: 'Sensor', value: 'Optical, 1600 DPI' },
+  { label: 'Sensor', value: '1600 DPI' },
   { label: 'Connectivity', value: 'Bluetooth 5.2' },
   { label: 'Range', value: 'Up to 30 feet (10m)' },
   { label: 'Battery Life', value: 'Up to 24 hours' },
