@@ -43,7 +43,7 @@ export const Footer = () => {
             <div className="col-span-2 md:col-span-1">
               <div className="flex items-center space-x-2 mb-4">
                 <MousePointer2 className="w-8 h-8 text-primary" />
-                <span className="text-xl font-bold">Ring Mouse</span>
+                <span className="text-xl font-bold">RingX</span>
               </div>
               <p className="text-gray-400 text-sm leading-relaxed mb-6">
                 Revolutionizing digital interaction, one gesture at a time.
