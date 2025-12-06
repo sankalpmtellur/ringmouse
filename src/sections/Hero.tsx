@@ -2,6 +2,7 @@ import { ArrowRight, PlayCircle } from 'lucide-react';
 import { Container } from '../components/Container';
 import { Button } from '../components/Button';
 import { FadeIn } from '../components/FadeIn';
+import heroImage from '../assets/hero_ring.png';
 
 export const Hero = () => {
   const scrollToPricing = () => {
@@ -39,8 +40,8 @@ export const Hero = () => {
           <FadeIn delay={200} className="relative">
             <div className="relative aspect-square bg-gradient-to-br from-gray-100 to-gray-200 rounded-3xl overflow-hidden shadow-2xl">
               <img
-                src="/src/assets/ring.png"
-                alt="Version 1"
+                src={heroImage}
+                alt="Ring Mouse Device"
                 className="absolute inset-0 w-full h-full object-cover rounded-3xl scale-90"
               />
             </div>
