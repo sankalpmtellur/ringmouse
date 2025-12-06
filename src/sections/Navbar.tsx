@@ -27,7 +27,7 @@ export const Navbar = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           <div className="flex items-center space-x-2">
             <MousePointer2 className="w-8 h-8 text-primary" />
-            <span className="text-xl md:text-2xl font-bold text-text">Ring Mouse</span>
+            <span className="text-xl md:text-2xl font-bold text-text">RingX</span>
           </div>
 
           <div className="hidden md:flex items-center space-x-8">
