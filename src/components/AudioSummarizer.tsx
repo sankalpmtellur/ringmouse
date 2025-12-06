@@ -170,22 +170,23 @@ const AudioSummarizer: React.FC<AudioSummarizerProps> = ({ onSummaryGenerated })
                                                 onClick={handleSummarize}
                                                 disabled={isLoading}
                                                 size="lg"
-                                                className="w-full justify-center"
+                                                className="w-full justify-center flex items-center gap-2"
                                             >
                                                 {isLoading ? (
                                                     <>
-                                                        <Loader2 className="w-5 h-5 mr-2 animate-spin" />
-                                                        Processing Audio...
+                                                        <Loader2 className="w-5 h-5 animate-spin" />
+                                                        <span>Processing Audio...</span>
                                                     </>
                                                 ) : (
                                                     <>
-                                                        <Sparkles className="w-5 h-5 mr-2" />
-                                                        Generate Summary
+                                                        <Sparkles className="w-5 h-5" />
+                                                        <span>Generate Summary</span>
                                                     </>
                                                 )}
                                             </Button>
                                         </div>
                                     )}
+
                                 </div>
 
                                 {/* Summary Result */}
