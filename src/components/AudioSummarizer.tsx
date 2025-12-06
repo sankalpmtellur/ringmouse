@@ -134,9 +134,9 @@ const AudioSummarizer: React.FC<AudioSummarizerProps> = ({ onSummaryGenerated })
                                             <Button
                                                 onClick={startRecording}
                                                 size="lg"
-                                                className="min-w-[200px] shadow-lg shadow-primary/20"
+                                                className="min-w-[250px] shadow-lg shadow-primary/20 flex items-center justify-center gap-2"
                                             >
-                                                <Mic className="w-5 h-5 mr-2" />
+                                                <Mic className="w-5 h-5" />
                                                 Start Recording
                                             </Button>
                                         ) : (
@@ -144,17 +144,11 @@ const AudioSummarizer: React.FC<AudioSummarizerProps> = ({ onSummaryGenerated })
                                                 onClick={stopRecording}
                                                 variant="secondary"
                                                 size="lg"
-                                                className="min-w-[200px] border-red-200 text-red-600 hover:bg-red-50 hover:border-red-300"
+                                                className="min-w-[200px] border-red-200 text-red-600 hover:bg-red-50 hover:border-red-300 flex items-center justify-center gap-2"
                                             >
-                                                <Square className="w-5 h-5 mr-2 fill-current" />
+                                                <Square className="w-5 h-5 fill-current" />
                                                 Stop Recording
                                             </Button>
-                                        )}
-
-                                        {isRecording && (
-                                            <p className="text-sm text-red-500 font-medium animate-pulse">
-                                                Recording in progress...
-                                            </p>
                                         )}
                                     </div>
 
