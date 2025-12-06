@@ -1,6 +1,6 @@
-# RingMouse — Smart Wearable Air Mouse
+# RingX — Smart Wearable Air Mouse
 
-A modern, lightweight, and responsive frontend built using **React + TypeScript + Vite + TailwindCSS** for showcasing the RingMouse product — a wearable finger-based air mouse designed for portability, comfort, and gesture-based control.
+A modern, lightweight, and responsive website built using **React + TypeScript + Vite + TailwindCSS** for showcasing the RingMouse product — a wearable finger-based air mouse designed for portability, comfort, and gesture-based control.
 
 ## 🚀 Features
 
@@ -28,6 +28,7 @@ src/
  ├── sections/         # Homepage sections (Hero, Features, Specs, Pricing...)
  ├── assets/           # Images, icons, renders
  ├── hooks/            # Custom hooks (e.g., useFadeIn)
+ ├── pages/            # Voice to text Summarizer Page
  ├── App.tsx           # Main page structure
  ├── main.tsx          # Entry point
  └── index.css         # Tailwind base styles
@@ -37,14 +38,14 @@ src/
 
 ```
 git clone <your-repo-url>
-cd ringmouse-website
+cd ringmouse
 npm install
 npm run dev
 ```
 
 ## 🌐 Live Demo
 
-Add your demo link here (if deployed).
+<a href="https://ringmouse.vercel.app/">Live Website Link</a>
 
 ## 🧩 Core Sections
 
@@ -52,7 +53,6 @@ Add your demo link here (if deployed).
 * **Features** — Gesture control, portability, Bluetooth, battery
 * **Use Cases** — Travel, presentations, students, gamers
 * **Technical Specs** — Sensors, Bluetooth 5.3, battery, materials
-* **Pricing** — Pre-order details
 * **FAQ** — Common questions
 * **Footer** — Social links + contact
 
@@ -81,15 +81,7 @@ The build output will be in the `dist/` folder.
 
 ## 🙌 Contributors
 
-* **Sankalp M Tellur**
-* Team Members of **Golu Gang** (optional to list)
-
-## 📄 License
-
-Add a license if you want (MIT recommended).
-
----
-
-### ⭐ Notes
-
-You can update product images, CAD renders, videos, and links later as your hardware progresses.
+* **Sankalp M Tellur** - <a href="http://github.com/sankalpmtellur/">Github</a>
+* **Ritesh Kumar** - <a href="http://github.com/ratinto/">Github</a>
+* **Shreyash Golhani** - <a href="http://github.com/ShreyashGol/">Github</a>
+* **Aditya Shankar** - <a href="http://github.com/racer-95/">Github</a>
