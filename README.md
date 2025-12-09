@@ -81,7 +81,11 @@ The build output will be in the `dist/` folder.
 
 ## 🙌 Contributors
 
-* **Sankalp M Tellur** - <a href="http://github.com/sankalpmtellur/">Github</a>
-* **Ritesh Kumar** - <a href="http://github.com/ratinto/">Github</a>
-* **Shreyash Golhani** - <a href="http://github.com/ShreyashGol/">Github</a>
-* **Aditya Shankar** - <a href="http://github.com/racer-95/">Github</a>
+* **Sankalp M Tellur**
+* Team Members of **Golu Gang** (optional to list)
+
+## 📄 License
+
+Add a license if you want (MIT recommended).
+
+---
